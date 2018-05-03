@@ -1,0 +1,28 @@
+{
+  "contatos": [
+    {
+      "id": 1,
+      "nome": "Fernando Barbosa",
+      "email": "fernando.mcsa@gmail.com",
+      "telRes": "4318-1225",
+      "telCel": "97370-6431",
+      "senha": "123456"
+    },
+    {
+      "id": 2,
+      "nome": "Pedro Mazza",
+      "email": "pedrinho@gmail.com",
+      "telRes": "4318-1225",
+      "telCel": "97370-6431",
+      "senha": "131313"
+    },
+    {
+      "id": 3,
+      "nome": "Ana Nakai",
+      "email": "ana.nakai@gmail.com",
+      "telRes": "2833-4533",
+      "telCel": "99006-7350",
+      "senha": "222333"
+    }
+  ]
+}

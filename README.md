@@ -1,27 +1,31 @@
 # Agenda
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.7.
+## Clonando o Repositório
 
-## Development server
+`git clone https://github.com/fernandobarbosapinto/agenda.git`
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+### Instalando as Dependências
 
-## Code scaffolding
+`npm install`
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+# Procedimentos após o clone do projeto
 
-## Build
+### 1. Entrar na pasta `agenda` e instalar o json-server para iniciar o BackEnd
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+`$ npm install -g json-server`
 
-## Running unit tests
+### 2. Após sua instalação executar o comando abaixo para criar um mock do nosso backend
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+`json-server db.json` 
 
-## Running end-to-end tests
+### 3. O endereço de nosso BanckEnd vai ser:
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+`http://localhost:3000/contatos`.
 
-## Further help
+### 4. Inicializando o servidor FrontEnd 
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+`ng serve --open`
+
+### 5. O endereço do servidor FrontEnd vai ser:
+
+`http://localhost:4200/`
